@@ -1,0 +1,40 @@
+創使用者adm  
+useradd -r adm
+改adm密碼
+passwd adm
+刪除使用者
+userdel [-r] adm
+重新開機
+shutdown -r now
+列出系統所執行的行程
+ps  -aux
+網路介面
+ifconfig
+網路連線
+netstat 
+線上使用者
+who
+檔案內容
+cat/etc/group
+搜尋字串
+cd /ect   grep sudo
+列出檔案
+cd/var/los   <enter>  ls
+建目錄
+mkdir tmp
+將目前目錄改成tmp
+cd tmp
+將/ect的檔案copy到目錄
+cp /etc /home
+查詢目前磁碟使用
+du
+刪除目前目錄中的檔案
+rm -irf
+看網站是否活者
+ping 網址
+關機
+shutdown
+列出時間
+date
+更新軟體
+sudo apt-get update
